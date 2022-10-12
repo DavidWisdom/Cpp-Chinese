@@ -34,7 +34,9 @@ int main()
             }
         }
     }
+    // TODO: 查找算法有待改进
     for (int i = 0; i < n; ++i) {
         res << dictionary[i] << ":" << dp[i] << '\n';
     }
+    return 0;
 }
